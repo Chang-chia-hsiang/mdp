@@ -23,8 +23,8 @@ rvdw                      =  1.0
 
 Tcoupl                    = V-rescale
 tc_grps                   = Protein
-tau_t                     =  0.1       0.1 
-ref_t                     =  300       300
+tau_t                     =  0.1
+ref_t                     =  300
 
 DispCorr                  = EnerPres
 
