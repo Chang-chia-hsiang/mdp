@@ -14,10 +14,10 @@ ns_type                   = grid
 pbc                       = xyz
 rlist                     =  1.0
 
-coulombtype               = PME
-pme_order                 =  4 
-fourierspacing            =  0.16 
-rcoulomb                  =  1.0 
+; coulombtype               = PME
+; pme_order                 =  4 
+; fourierspacing            =  0.16 
+; rcoulomb                  =  1.0 
 vdw_type                  = Cut-off
 rvdw                      =  1.0
 
@@ -28,11 +28,11 @@ ref_t                     =  300
 
 DispCorr                  = EnerPres
 
-Pcoupl                    = Parrinello-Rahman
-Pcoupltype                = Isotropic
-tau_p                     =  2.0 
-compressibility           =  4.5e-5 
-ref_p                     =  1.0
+; Pcoupl                    = Parrinello-Rahman
+; Pcoupltype                = Isotropic
+; tau_p                     =  2.0 
+; compressibility           =  4.5e-5 
+; ref_p                     =  1.0
 
 gen_vel                   = no
 
